@@ -1,9 +1,9 @@
 year=int(input())
 while True:
     year+=1
-    year=str(year)
+    s=str(year)
     
-    if len(year)==len(set(year)):
-        print(year)
+    if len(s)==len(set(s)):
+        print(s)
 
         break
